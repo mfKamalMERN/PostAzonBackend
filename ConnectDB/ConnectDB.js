@@ -4,7 +4,7 @@ import { PostModel } from "../Models/PostModel.js"
 
 export const ConnectDB = () => {
 
-    mongoose.connect("mongodb://127.0.0.1:27017/postAzon")
+    mongoose.connect("mongodb+srv://mfk:test123@portfolio.lsuj3bc.mongodb.net/postAzon?retryWrites=true&w=majority&appName=Portfolio")
         .then(res => {
 
             console.log("DB Connected")
