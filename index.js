@@ -12,7 +12,7 @@ import cookieParser from 'cookie-parser'
 const app = express()
 
 app.use(cors({
-    origin: ["https://postazon-frontend.vercel.app"],
+    origin: ["https://postazon-frontend.vercel.app/"],
 
     methods: ["GET", "POST", "PUT", "DELETE"],
 
